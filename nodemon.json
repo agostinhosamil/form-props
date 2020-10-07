@@ -1,0 +1,19 @@
+{
+	"verbose": true,
+	"ext": "js, json",
+
+	"watch": [
+		"src", "package.json"
+	],
+
+	"ignore": [],
+
+	"execMap": {
+		"js": "sucrase-node",
+		"json": "re-config"
+	},
+
+	"env": {
+		"NODE_ENV": "development"
+	}
+}

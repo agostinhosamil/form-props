@@ -1,0 +1,34 @@
+{
+  "name": "form-props",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "author": "Agostinho Sam'l <agostinhosaml832@gmail.com>",
+  "descrption": "A different way to share information between React components.",
+  "keywords": [
+    "React",
+    "React Form",
+    "React form props",
+    "Form props",
+    "React form properties",
+    "Form props"
+  ],
+  "_moduleAliases": {
+    "~": "./src",
+    "~r": "."
+  },
+  "_moduleAliasIgnoreWarning": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agostinhosamil/form-props.git"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "link-module-alias": "^1.2.0",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
+    "sucrase": "^3.15.0"
+  }
+}
