@@ -22,8 +22,14 @@
     "type": "git",
     "url": "git+https://github.com/agostinhosamil/form-props.git"
   },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
+  },
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js",
+    "try": "nodemon src/try/index.js",
+    "config:dev": "npm-run-all -p dev:*",
+    "dev:postinatll": "link-module-alias"
   },
   "devDependencies": {
     "link-module-alias": "^1.2.0",
